@@ -16,8 +16,11 @@ git commit -n "WRITE MESSAGE HERE"
 
 git push origin main
 
-If any warning such as: in the working copy of '____.ipynb', LF will be replaced by CRLF the next time Git touches it
-git config --global core.autocrlf true
+If warning such as: 
+
+in the working copy of '____.ipynb', LF will be replaced by CRLF the next time Git touches it
+
+    - git config --global core.autocrlf true
 
 
 ## Create a Virtual ENV and Activate it
