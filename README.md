@@ -9,8 +9,11 @@
 ## Git Basic Commands
 
 git add .
+
 git status
+
 git commit -n "WRITE MESSAGE HERE" 
+
 git push origin main
 
 If any warning such as: in the working copy of '____.ipynb', LF will be replaced by CRLF the next time Git touches it
