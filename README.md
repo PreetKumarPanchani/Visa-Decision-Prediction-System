@@ -8,19 +8,19 @@
 
 ## Git Basic Commands
 
-git add .
+- git add .
 
-git status
+- git status
 
-git commit -n "WRITE MESSAGE HERE" 
+- git commit -n "WRITE MESSAGE HERE" 
 
-git push origin main
+- git push origin main
 
-If warning such as: 
+#### If warning: 
 
 in the working copy of '____.ipynb', LF will be replaced by CRLF the next time Git touches it
 
-    - git config --global core.autocrlf true
+- git config --global core.autocrlf true
 
 
 ## Create a Virtual ENV and Activate it
