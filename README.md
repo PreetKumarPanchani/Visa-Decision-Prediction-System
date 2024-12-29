@@ -49,13 +49,14 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 5. Open EC2 and Install docker in EC2 Machine:
 
 6. Configure EC2 as self-hosted runner:
-setting>actions>runner>new self hosted runner> choose os> then run command one by one
+    - setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 7. Setup github secrets such as:
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
-AWS_DEFAULT_REGION
-ECR_REPO
+
+    - AWS_ACCESS_KEY_ID
+    - AWS_SECRET_ACCESS_KEY
+    - AWS_DEFAULT_REGION
+    - ECR_REPO
 
 ### Details for Step 2 and Step 5
 
