@@ -16,7 +16,7 @@
 
 - git push origin main
 
-#### If warning: 
+#### Warning: 
 
 in the working copy of '____.ipynb', LF will be replaced by CRLF the next time Git touches it
 
@@ -25,20 +25,20 @@ in the working copy of '____.ipynb', LF will be replaced by CRLF the next time G
 
 ## Create a Virtual ENV and Activate it
 
-conda create -n visa_env python=3.8 -y
-conda activate visa_env
+- conda create -n visa_env python=3.8 -y
+- conda activate visa_env
 
 ## To setup a Local Package, we use -e . in the requirement file and Install the required packages
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 ## Export the environment variable
 
-export MONGODB_URL="mongodb+srv://<username>:<password>...."
+- export MONGODB_URL="mongodb+srv://<username>:<password>...."
 
-export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+- export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
 
-export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
+- export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 
 ## AWS-CICD-Deployment-with-Github-Actions
 
