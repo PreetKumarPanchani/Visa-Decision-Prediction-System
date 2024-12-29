@@ -56,8 +56,9 @@ AWS_SECRET_ACCESS_KEY
 AWS_DEFAULT_REGION
 ECR_REPO
 
+### Details for Step 2 and Step 5
 
-Part 2(Create IAM user for deployment): In Details 
+#### Step 2(Create IAM user for deployment): In Details 
 
 1. EC2 access : It is virtual machine
 
@@ -84,7 +85,7 @@ Part 2(Create IAM user for deployment): In Details
 
 
 
-Part 5 (Open EC2 and Install docker in EC2 Machine), In Details:
+#### Step 5 (Open EC2 and Install docker in EC2 Machine), In Details:
 
 #optinal
 
